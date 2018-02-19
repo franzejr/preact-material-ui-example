@@ -1,0 +1,17 @@
+[ignore]
+*\.json
+.*/node_modules/grpc/.*
+.semaphore-cache/.*
+.*/semaphore-cache/.*
+.*/.semaphore-cache/.*
+[include]
+.*/src/.*
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='^.*\.css$' -> '{}'
+
+[strict]

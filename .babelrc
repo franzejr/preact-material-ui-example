@@ -1,0 +1,11 @@
+{
+    "presets": [
+        ["preact-cli/babel", { "modules": "commonjs" }], "flow"
+    ],
+    "plugins": [
+      "syntax-flow",
+    "transform-flow-strip-types",
+    "transform-flow-comments",
+    ["transform-react-jsx", { "pragma": "h" }]
+    ]
+}

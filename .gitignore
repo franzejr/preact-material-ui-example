@@ -1,0 +1,9 @@
+node_modules
+/build
+/*.log
+*.lock
+*.envrc
+.DS_Store
+package-lock.json
+/coverage
+.nyc_output/
